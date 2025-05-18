@@ -1,0 +1,28 @@
+# Ambiente virtual
+venv/
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# SQLite (se usado)
+*.sqlite3
+
+# Configs do VSCode, PyCharm etc.
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.bak
+*.tmp
+
+# Django static/media (se for gerado localmente)
+staticfiles/
+media/
