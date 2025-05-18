@@ -2,6 +2,8 @@ import asyncio
 import httpx
 from django.http import HttpResponse
 
+#add comment for PR
+
 
 async def http_call_async():
     for num in range(1, 6):
